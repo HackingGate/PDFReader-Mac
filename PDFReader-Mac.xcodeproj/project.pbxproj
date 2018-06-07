@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765C9C2120C9144C0032C812 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 765C9C2020C9144C0032C812 /* README.md */; };
+		7685F3F420C815BE002CBB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685F3F320C815BE002CBB97 /* AppDelegate.swift */; };
+		7685F3F620C815BE002CBB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685F3F520C815BE002CBB97 /* ViewController.swift */; };
+		7685F3F820C815BE002CBB97 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685F3F720C815BE002CBB97 /* Document.swift */; };
+		7685F3FB20C815BE002CBB97 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7685F3F920C815BE002CBB97 /* Document.xcdatamodeld */; };
+		7685F3FD20C815BF002CBB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7685F3FC20C815BF002CBB97 /* Assets.xcassets */; };
+		7685F40020C815BF002CBB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7685F3FE20C815BF002CBB97 /* Main.storyboard */; };
+		7685F40B20C81803002CBB97 /* DragAndDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685F40A20C81803002CBB97 /* DragAndDropView.swift */; };
+		7685F40D20C82396002CBB97 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685F40C20C82396002CBB97 /* DocumentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		765C9C2020C9144C0032C812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7685F3F020C815BE002CBB97 /* PDFReader-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFReader-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7685F3F320C815BE002CBB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7685F3F520C815BE002CBB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7685F3F720C815BE002CBB97 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		7685F3FA20C815BE002CBB97 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		7685F3FC20C815BF002CBB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7685F3FF20C815BF002CBB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7685F40120C815BF002CBB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7685F40220C815BF002CBB97 /* PDFReader_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFReader_Mac.entitlements; sourceTree = "<group>"; };
+		7685F40A20C81803002CBB97 /* DragAndDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropView.swift; sourceTree = "<group>"; };
+		7685F40C20C82396002CBB97 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7685F3ED20C815BE002CBB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7685F3E720C815BE002CBB97 = {
+			isa = PBXGroup;
+			children = (
+				765C9C2020C9144C0032C812 /* README.md */,
+				7685F3F220C815BE002CBB97 /* PDFReader-Mac */,
+				7685F3F120C815BE002CBB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7685F3F120C815BE002CBB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7685F3F020C815BE002CBB97 /* PDFReader-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7685F3F220C815BE002CBB97 /* PDFReader-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				7685F3F320C815BE002CBB97 /* AppDelegate.swift */,
+				7685F3F520C815BE002CBB97 /* ViewController.swift */,
+				7685F3F720C815BE002CBB97 /* Document.swift */,
+				7685F40A20C81803002CBB97 /* DragAndDropView.swift */,
+				7685F40C20C82396002CBB97 /* DocumentViewController.swift */,
+				7685F3FC20C815BF002CBB97 /* Assets.xcassets */,
+				7685F3FE20C815BF002CBB97 /* Main.storyboard */,
+				7685F40120C815BF002CBB97 /* Info.plist */,
+				7685F40220C815BF002CBB97 /* PDFReader_Mac.entitlements */,
+				7685F3F920C815BE002CBB97 /* Document.xcdatamodeld */,
+			);
+			path = "PDFReader-Mac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7685F3EF20C815BE002CBB97 /* PDFReader-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7685F40520C815BF002CBB97 /* Build configuration list for PBXNativeTarget "PDFReader-Mac" */;
+			buildPhases = (
+				7685F3EC20C815BE002CBB97 /* Sources */,
+				7685F3ED20C815BE002CBB97 /* Frameworks */,
+				7685F3EE20C815BE002CBB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDFReader-Mac";
+			productName = "PDFReader-Mac";
+			productReference = 7685F3F020C815BE002CBB97 /* PDFReader-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7685F3E820C815BE002CBB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HackingGate;
+				TargetAttributes = {
+					7685F3EF20C815BE002CBB97 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 7685F3EB20C815BE002CBB97 /* Build configuration list for PBXProject "PDFReader-Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7685F3E720C815BE002CBB97;
+			productRefGroup = 7685F3F120C815BE002CBB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7685F3EF20C815BE002CBB97 /* PDFReader-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7685F3EE20C815BE002CBB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765C9C2120C9144C0032C812 /* README.md in Resources */,
+				7685F3FD20C815BF002CBB97 /* Assets.xcassets in Resources */,
+				7685F40020C815BF002CBB97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7685F3EC20C815BE002CBB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7685F40B20C81803002CBB97 /* DragAndDropView.swift in Sources */,
+				7685F3FB20C815BE002CBB97 /* Document.xcdatamodeld in Sources */,
+				7685F3F620C815BE002CBB97 /* ViewController.swift in Sources */,
+				7685F40D20C82396002CBB97 /* DocumentViewController.swift in Sources */,
+				7685F3F420C815BE002CBB97 /* AppDelegate.swift in Sources */,
+				7685F3F820C815BE002CBB97 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7685F3FE20C815BF002CBB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7685F3FF20C815BF002CBB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7685F40320C815BF002CBB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7685F40420C815BF002CBB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7685F40620C815BF002CBB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PDFReader-Mac/PDFReader_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77CB32R5F4;
+				INFOPLIST_FILE = "PDFReader-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackinggate.PDFReader-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7685F40720C815BF002CBB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PDFReader-Mac/PDFReader_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77CB32R5F4;
+				INFOPLIST_FILE = "PDFReader-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackinggate.PDFReader-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7685F3EB20C815BE002CBB97 /* Build configuration list for PBXProject "PDFReader-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7685F40320C815BF002CBB97 /* Debug */,
+				7685F40420C815BF002CBB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7685F40520C815BF002CBB97 /* Build configuration list for PBXNativeTarget "PDFReader-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7685F40620C815BF002CBB97 /* Debug */,
+				7685F40720C815BF002CBB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7685F3F920C815BE002CBB97 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7685F3FA20C815BE002CBB97 /* Document.xcdatamodel */,
+			);
+			currentVersion = 7685F3FA20C815BE002CBB97 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7685F3E820C815BE002CBB97 /* Project object */;
+}
